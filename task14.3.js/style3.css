@@ -1,0 +1,28 @@
+.container {
+  width: 500px;
+  margin: 50px auto;
+}
+
+.form {
+  padding: 20px 100px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 20px;
+  border: 3px dashed;
+}
+.input {
+  margin-top: 5px;
+  text-align: center;
+}
+.answer {
+  max-width: 1500px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.answer__image {
+  max-width: 300px;
+}
